@@ -1,4 +1,4 @@
-# 🏡 IoT Smart Home Energy Manager
+# IoT Smart Home Energy Manager
 
 > Intelligent energy management system combining ESP32 IoT devices, MQTT real-time data, Python backend, React dashboard, and AI optimization for smart homes.
 
@@ -8,21 +8,21 @@
 [![React 18+](https://img.shields.io/badge/react-18%2B-61dafb)](https://react.dev)
 [![Docker Ready](https://img.shields.io/badge/Docker-Ready-2496ED)](https://www.docker.com/)
 
-## 🎯 Overview
+## Overview
 
 A complete IoT solution for intelligent home energy management that monitors, analyzes, and optimizes energy consumption in real-time. Monitor multiple devices, detect anomalies, predict usage patterns, and automate energy-saving strategies.
 
 **Key Achievements:**
-- ⚡ Real-time energy monitoring via MQTT
-- 🤖 AI-powered consumption prediction & optimization
-- 📊 Interactive dashboard with live charts
-- 🔌 Multi-device support with ESP32 sensors
-- 💰 Cost savings calculation & recommendations
-- 📱 Mobile-responsive PWA interface
-- 🌐 WebSocket real-time updates
-- 🐳 Docker containerization
+-  Real-time energy monitoring via MQTT
+-  AI-powered consumption prediction & optimization
+-  Interactive dashboard with live charts
+-  Multi-device support with ESP32 sensors
+-  Cost savings calculation & recommendations
+-  Mobile-responsive PWA interface
+-  WebSocket real-time updates
+-  Docker containerization
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -68,7 +68,7 @@ A complete IoT solution for intelligent home energy management that monitors, an
 └──────┘  └────────────────────────┘
 ```
 
-## ✨ Core Features
+## Core Features
 
 ### IoT Device Management (ESP32)
 - Multi-sensor support (current, voltage, temperature, humidity)
@@ -102,7 +102,7 @@ A complete IoT solution for intelligent home energy management that monitors, an
 - **Device Recommendations** - Identify high-consuming devices
 - **Savings Projection** - Calculate potential cost reductions
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -178,7 +178,7 @@ GET    /api/anomalies            # Detected unusual patterns
 POST   /api/automation/rules     # Create automation rules
 ```
 
-## 📊 Database Schema
+## Database Schema
 
 **Core Tables:**
 - `devices` - IoT device registry
@@ -188,7 +188,7 @@ POST   /api/automation/rules     # Create automation rules
 - `alerts` - Anomaly notifications
 - `automation_rules` - User-defined automations
 
-## 🤖 ML Models
+## ML Models
 
 ### 1. Prophet (Forecasting)
 ```python
@@ -211,7 +211,7 @@ detector = AnomalyDetector()
 anomies = detector.detect(threshold=0.95)
 ```
 
-## 📱 Mobile App (PWA)
+## Mobile App (PWA)
 
 - Offline-first architecture
 - Service Worker caching
@@ -219,17 +219,17 @@ anomies = detector.detect(threshold=0.95)
 - Home screen installation
 - Responsive design for all devices
 
-## 🔒 Security Features
+## Security Features
 
-- ✅ MQTT TLS/SSL encryption
-- ✅ JWT token authentication
-- ✅ Password hashing (bcrypt)
-- ✅ Environment variable management
-- ✅ API rate limiting
-- ✅ CORS protection
-- ✅ Input validation & sanitization
+-  MQTT TLS/SSL encryption
+-  JWT token authentication
+-  Password hashing (bcrypt)
+-  Environment variable management
+-  API rate limiting
+-  CORS protection
+-  Input validation & sanitization
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 iot-smart-home-energy-manager/
@@ -260,7 +260,7 @@ iot-smart-home-energy-manager/
 └── README.md
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **IoT Layer:**
 - ESP32 (Espressif)
@@ -284,17 +284,13 @@ iot-smart-home-energy-manager/
 - Docker & Docker Compose
 - MQTT Mosquitto broker
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 - API Response: < 100ms
 - Data refresh: < 2 seconds
 - Prediction accuracy: 92%+
 - Device battery life: 14+ days (on 18650)
 - Storage: TimescaleDB compression (~1GB/month)
-
-## 🤝 Contributing
-
-Contributions welcome! Please fork and create a feature branch.
 
 ## 📝 License
 
